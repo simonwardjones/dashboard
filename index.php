@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <style>
 body {
-    background: url(http://thepurplepeople.co.uk/Assets/Background.png);
+    background: url(http://thepurplepeople.co.uk/dash/Assets/Background.png);
     /*background: #999999;*/
     background-size: 100vw 100vh;
     font-family: Arial;
@@ -10,11 +10,11 @@ body {
 	font-size:30px;
 }
 </style>
-<link rel="stylesheet" href="http://thepurplepeople.co.uk/dash.css" title="external style sheet">
+<link rel="stylesheet" href="http://thepurplepeople.co.uk/dash/dash.css" title="external style sheet">
 <html>
 <head>
 <title>Personal Dashboard</title>
-<script type="text/javascript" src="http://thepurplepeople.co.uk/dash.js"></script>
+<script type="text/javascript" src="http://thepurplepeople.co.uk/dash/dash.js"></script>
 
 <?php include "home.php";?>
 <?php include "common.php";?>

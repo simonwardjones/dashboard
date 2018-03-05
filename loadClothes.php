@@ -1,6 +1,7 @@
 <?php
-
-$clothesRequest = 'https://therapy-box.co.uk/hackathon/clothing-api.php?username=swapnil';
+	$loginUser=$_GET['loginUser'];
+	$name=$loginUser;
+	$clothesRequest = 'https://therapy-box.co.uk/hackathon/clothing-api.php?username=swapnil';
 	$clothesResponse  = file_get_contents($clothesRequest);
 	$clothesJson  = json_decode($clothesResponse);
 	
@@ -49,13 +50,13 @@ $clothesRequest = 'https://therapy-box.co.uk/hackathon/clothing-api.php?username
 	}
 	$SVGData.='</svg>';
 	
-	$fileLocation = getenv("DOCUMENT_ROOT") . "/charts/".$name."pie.svg";
+	$fileLocation = getenv("DOCUMENT_ROOT") . "/dash/charts/".$name."pie.svg";
 	$file = fopen($fileLocation,"w");
 	fwrite($file,$SVGData);
 	fclose($file);
 	//file_put_contents($fileLocation, $SVGData);
 	
-	$rtn ='<img style="width:95%; height:95%" src="http://thepurplepeople.co.uk/charts/'.$name.'pie.svg">';
+	$rtn ='<img style="width:95%; height:95%" src="http://thepurplepeople.co.uk/dash/charts/'.$name.'pie.svg">';
 	echo $rtn;
 
  ?>

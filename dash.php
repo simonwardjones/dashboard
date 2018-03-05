@@ -59,13 +59,13 @@ function weather($userlat,$userlon){
 	
 	if($weatherJson->weather[0]->id<800){
 		$weatherId='rain';
-		$weatherBg='http://thepurplepeople.co.uk/Assets/Rain_icon.png';
+		$weatherBg='http://thepurplepeople.co.uk/dash/Assets/Rain_icon.png';
 	}else if($weatherJson->weather[0]->id==800 || $weatherJson->weather[0]->id==804){
 		$weatherId='sun';
-		$weatherBg='http://thepurplepeople.co.uk/Assets/Sun_icon.png';
+		$weatherBg='http://thepurplepeople.co.uk/dash/Assets/Sun_icon.png';
 	}else{
 		$weatherId='cloud';
-		$weatherBg='http://thepurplepeople.co.uk/Assets/Clouds_icon.png';
+		$weatherBg='http://thepurplepeople.co.uk/dash/Assets/Clouds_icon.png';
 	}
 	
 	$rtn='<table class="dashContainerTable">'
@@ -220,7 +220,7 @@ function clothes($name){
 	fclose($file);
 	//file_put_contents($fileLocation, $SVGData);
 	
-	$rtn ='<img style="width:95%; height:95%" src="http://thepurplepeople.co.uk/charts/'.$name.'pie.svg">';
+	$rtn ='<img style="width:95%; height:95%" src="http://thepurplepeople.co.uk/charts/dash/'.$name.'pie.svg">';
 	return $rtn;*/
 }
 

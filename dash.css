@@ -1,5 +1,5 @@
 body {
-    /*background: url(http://thepurplepeople.co.uk/Assets/Background.png);
+    /*background: url(http://thepurplepeople.co.uk/dash/Assets/Background.png);
     background: #999999;
     background-size: 100vw 100vh;
     font-family: Arial;
@@ -90,7 +90,7 @@ input{
 	white-space:nowrap;
 }
 .signInTable td.addPic{
-	background-image: url("http://thepurplepeople.co.uk/Assets/Add_Picture.png");
+	background-image: url("http://thepurplepeople.co.uk/dash/Assets/Add_Picture.png");
 	background-repeat:no-repeat;
 	background-size: contain;
 	background-position: center;
@@ -223,7 +223,7 @@ input{
 #container{
 	height:100%;
 	width:100%;
-	/*background-image: url("http://thepurplepeople.co.uk/Assets/Container.png");
+	/*background-image: url("http://thepurplepeople.co.uk/dash/Assets/Container.png");
 	background-repeat:no-repeat;
 	background-size: contain;
 	background-position: center;

@@ -72,7 +72,7 @@ class Task{
 			
 			$rtn.='</span></div></td></tr>';
 		}
-		$rtn.='<tr><td><div><img onclick="addTask()" src="http://thepurplepeople.co.uk/Assets/Plus_button_small" /></div></td><tr>'
+		$rtn.='<tr><td><div><img onclick="addTask()" src="http://thepurplepeople.co.uk/dash/Assets/Plus_button_small" /></div></td><tr>'
 			.'</table>';
 			
 		return $rtn;

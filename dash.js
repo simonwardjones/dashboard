@@ -45,7 +45,7 @@ function loadClothes(){
 			document.getElementById('clothesContainer').innerHTML = xmlhttp2.responseText;
 		}
 	}
-	xmlhttp2.open('GET', 'loadClothes.php', true);
+	xmlhttp2.open('GET', 'loadClothes.php?loginUser='+document.getElementById('loginUser').value, true);
 	xmlhttp2.send();	
 }
 

@@ -39,7 +39,7 @@ function signupContent(){
 			.'<tr>'
 				.'<td  colspan="3">'
 					.'<div id="submitSignIn">'
-						.'<img onclick="register();" src="http://thepurplepeople.co.uk/Assets/Register_Button.png">'
+						.'<img onclick="register();" src="http://thepurplepeople.co.uk/dash/Assets/Register_Button.png">'
 					.'</div>'
 				.'</td>'
 			.'</tr>'
